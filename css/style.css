@@ -58,7 +58,7 @@ a:hover {
   text-decoration: none !important;
 }
 
-.hero {
+.wallpaper {
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -215,7 +215,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-  color: #8f8f8f;
+  color: #0f7fee;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active>a {
@@ -386,7 +386,7 @@ a:hover {
 
 .site-mobile-menu .site-nav-wrap a.active,
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #8f8f8f;
+  color: #0f7fee;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -395,7 +395,7 @@ a:hover {
 }
 
 .site-mobile-menu .site-nav-wrap li.active>a {
-  color: #8f8f8f;
+  color: #0f7fee;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -498,7 +498,7 @@ a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background-color: #8f8f8f;
+  background-color: #0f7fee;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu>li {
