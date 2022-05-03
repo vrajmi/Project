@@ -5,11 +5,6 @@ body {
   position: relative;
 }
 
-footer {
-  background-color: #0d1824;
-  padding: 50px;
-}
-
 body:before {
   content: "";
   position: absolute;
