@@ -27,10 +27,6 @@ body.offcanvas-menu:before {
   visibility: visible;
 }
 
-p {
-  color: #b3b3b3;
-  font-weight: 300;
-}
 
 h1,
 h2,
@@ -1084,3 +1080,11 @@ a:hover {
 .footer-39201 .social li a:hover {
   color: #614ad3;
 }
+.images{
+display: inline-block; 
+position: relative; 
+width: 400px; 
+height: 400px;
+overflow: hidden;
+border-radius: 50%;
+} 
