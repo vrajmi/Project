@@ -1092,12 +1092,18 @@ main {
   height: 250px;
   overflow: hidden;
   border-radius: 50%;
+  
 }
 
-.cim {
+.cim, p {
   text-align: center;
+}
+.felsoszoveg{
+  padding-top: 30px
 }
 
-.cim3 {
-  text-align: center;
+.kep1, .kep2, .kep3{
+  margin-bottom: 30px;
+  margin-left: 50px
 }
+
