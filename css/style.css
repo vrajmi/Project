@@ -1080,11 +1080,24 @@ a:hover {
 .footer-39201 .social li a:hover {
   color: #614ad3;
 }
-.images{
-display: inline-block; 
-position: relative; 
-width: 400px; 
-height: 400px;
-overflow: hidden;
-border-radius: 50%;
-} 
+
+main {
+  padding: 20px;
+}
+
+.images {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cim {
+  text-align: center;
+}
+
+.cim3 {
+  text-align: center;
+}
