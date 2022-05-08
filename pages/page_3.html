@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Szoftverfejlesztői képzés</title>
+    <title>Szoftverfejlesztés - Informatika Szakmaorientáció</title>
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../images/mathiasz_logo.png">
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
     <link rel="stylesheet" href="../fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -75,8 +77,8 @@
                             <div class="container">
                                 <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
                                         class="site-menu-toggle js-menu-toggle text-white"><span
-                                            class="icon-menu h3"></span></a></div>
-
+                                            class="icon-menu h3"></span></a>
+                                </div>
                                 <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                                     <li><a href="page_2.html" class="nav-link">Fogalom</a></li>
                                     <li><a href="page_3.html" class="nav-link">Szoftverfejlesztés</a></li>
@@ -92,106 +94,92 @@
 
     <div class="wallpaper" style="background-image: url('../images/wallpaper.jpg');"></div>
 
-    <div class="container-fluid">
+    <main class="container-fluid">
         <div class="row">
-            <div class="col-md-12 cimpage3">
-                <p>
-                <h1>
-                    Szoftverfejlesztés
-                </h1>
-                </p>
+            <div class="col-md-12 text-center">
+                <h1 id="first-title">Szoftverfejlesztés</h1>
+                <hr>
                 <p>
                     Tekintve, hogy a szoftverfejlesztés egy rendkívül sokrétű és kiterjedt témakör, igen sok nézőpontból
                     közelíthető meg. Jelen írás a szoftverfejlesztés menetét részletezi dióhéjban. Alapvetően minden
                     szoftverfejlesztést egy konkrét projektként érdemes kezelni. Lehetséges lépések a fejlesztés során:
                 </p>
-
+                <hr>
             </div>
+
             <div class="col-md-9">
-                <p>
+                <h3 id="second-title">A szoftverfejlesztés céljainak kitűzése és hitelesítése</h3>
 
-
-                <h3>A szoftverfejlesztés céljainak kitűzése és hitelesítése</h3>
-                </p>
-                <p>
-                    <li> Cél kitűzése – avagy miért is csináljuk az egészet, mit szeretnénk elérni a fejlesztéssel</li>
-                    <li> Kockázatelemzés – nagyobb projektek esetén, már érdemes megvizsgálni előre, hogy milyen
+                <ul>
+                    <li>Cél kitűzése - avagy miért is csináljuk az egészet, mit szeretnénk elérni a fejlesztéssel</li>
+                    <li>Kockázatelemzés - nagyobb projektek esetén, már érdemes megvizsgálni előre, hogy milyen
                         problémákba,
                         akadályokba ütközhetünk, és milyen megoldásokat adhatunk azokra.</li>
-                    <li> Megtérülésvizsgálat – megint csak nagyobb, költségesebb projektek esetén lehet szükség
+                    <li> Megtérülésvizsgálat - megint csak nagyobb, költségesebb projektek esetén lehet szükség
                         megvizsgálni,
                         hogy a befektetés mikorra térül meg.</li>
-                    <li> Humán és eszköz erőforrások projekthez rendelése. - Felelősök kinevezése és feladatkörök
-                        meghatározása, pl. projektvezető, tanácsadók, fejlesztő csapat.</li <li> Ütemterv elkészülés –
-                    ebben rögzítjük az olyan alapvetéseket, mint pl, hogy ki, mikorra és mit
-                    csinál.</li>
-                </p>
+                    <li>Humán és eszköz erőforrások projekthez rendelése. - Felelősök kinevezése és feladatkörök
+                        meghatározása, pl. projektvezető, tanácsadók, fejlesztő csapat.</li>
+                    <li>Ütemterv elkészülés - ebben rögzítjük az olyan alapvetéseket, mint pl, hogy ki, mikorra és mit
+                        csinál.</li>
+                </ul>
             </div>
-            <div class="col-md-3">
-                <img <img class="images img-fluid" src="../images/kep5.jpg" alt="">
 
+            <div class="col-md-3">
+                <img class="images img-fluid" src="../images/kep5.jpg" alt="">
             </div>
+
             <div class="col-md-3">
                 <img class="images img-fluid" src="../images/kep6.jpg" alt="">
             </div>
+
             <div class="col-md-9">
-                <p>
+                <h3 id="third-title">Szoftverspecifikáció</h3>
 
-
-                <h3>
-                    Szoftverspecifikáció
-                </h3>
-                </p>
-                <p>
-                   <li>Igényspecifikáció – a színtiszta és közérthető nyelvezet jellemzi. Felhasználói oldalról
-                    megközelítve a megoldandó problémát, amire szoftveres megoldást keresünk</li> 
-                   <li> Funkcionális specifikáció – részletesebb leírás, mely leginkább a fejlesztőknek szól. Nyelvezete és
-                    részletessége is erre utal. Gyakori a rendszer/alrendszer/modul/funkció felosztás</li>
-                   <li> Rendszerterv – folyamatábrákkal és adatbázistervvel tarkított, szintén fejlesztők számára készülő
-                    dokumentum</li>
-                </p>
-
+                <ul>
+                    <li>Igényspecifikáció - a színtiszta és közérthető nyelvezet jellemzi. Felhasználói oldalról
+                        megközelítve a megoldandó problémát, amire szoftveres megoldást keresünk</li>
+                    <li> Funkcionális specifikáció - részletesebb leírás, mely leginkább a fejlesztőknek szól.
+                        Nyelvezete és
+                        részletessége is erre utal. Gyakori a rendszer/alrendszer/modul/funkció felosztás</li>
+                    <li> Rendszerterv - folyamatábrákkal és adatbázistervvel tarkított, szintén fejlesztők számára
+                        készülő
+                        dokumentum</li>
+                </ul>
             </div>
-
-
-
-
-
-
-
-
         </div>
-    </div>
+    </main>
 
     <footer class="footer-14398">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-3">
-                    <a href="#" class="footer-site-logo">Project</a>
-                    <p>Informatika szakmaorientáció</p>
+                    <a href="#" class="footer-site-logo">Projekt</a>
+                    <p>Informatika Szakmaorientáció</p>
                 </div>
                 <div class="col-md-2 ml-auto">
                     <h3>Források</h3>
                     <ul class="list-unstyled links">
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu2</a></li>
-                        <li><a href="#">Menu3</a></li>
+                        <li><a href="https://hu.wikipedia.org/wiki/Szoftverfejleszt%C5%91"
+                                target="_blank">Szoftverfejlesztő Wikipédia</a></li>
+                        <li><a href="https://hu.wikipedia.org/wiki/Szoftverfejleszt%C3%A9s"
+                                target="_blank">Szoftverfejlesztés Wikipédia</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 ml-auto">
                     <h3>Gyors linkek</h3>
                     <ul class="list-unstyled links">
-                        <li><a href="#first-title">Menu1</a></li>
-                        <li><a href="#second-title">Menu2</a></li>
-                        <li><a href="#third-title">Menu3</a></li>
+                        <li><a href="#first-title">Szoftverfejlesztés</a></li>
+                        <li><a href="#second-title">A szoftverfejlesztés céljainak kitűzése és hitelesítése</a></li>
+                        <li><a href="#third-title">Szoftverspecifikáció</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 ml-auto">
                     <h3>Oldalak</h3>
                     <ul class="list-unstyled links">
-                        <li><a href="#">Menu1</a></li>
-                        <li><a href="#">Menu2</a></li>
-                        <li><a href="#">Menu3</a></li>
+                        <li><a href="page_2.html">Fogalom</a></li>
+                        <li><a href="page_3.html">Szoftverfejlesztés</a></li>
+                        <li><a href="game_page.html">Játék</a></li>
                     </ul>
                 </div>
             </div>

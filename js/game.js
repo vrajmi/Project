@@ -85,21 +85,19 @@ const questions = [
     ]
   },
   {
-    question: 'Kérdés2',
+    question: 'Melyik NEM illik a felsoroltak közé?',
     answers: [
-      { text: 'Válasz1', correct: true },
-      { text: 'Válasz2', correct: true },
-      { text: 'Válasz3', correct: true },
-      { text: 'Válasz4s', correct: true }
+      { text: 'HTML', correct: false },
+      { text: 'C#', correct: false },
+      { text: 'JavaScript', correct: false },
+      { text: 'Visual Studio Code', correct: true }
     ]
   },
   {
-    question: 'Kérdés3',
+    question: 'Ajánlott-e minden szoftverfejlesztést egy konkrét projektként kezelni?',
     answers: [
-      { text: 'Válasz1', correct: false },
-      { text: 'Válasz2', correct: true },
-      { text: 'Válasz3', correct: false },
-      { text: 'Válasz4', correct: false }
+      { text: 'Igen', correct: true },
+      { text: 'Nem', correct: false }
     ]
   },
   {

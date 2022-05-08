@@ -51,7 +51,7 @@ a:hover {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-position: 0px -70px;
+  background-position: 0px -80px;
 }
 
 .site-navbar-wrap {
@@ -680,10 +680,8 @@ body.wrong {
 .hide {
   display: none;
 }
+
 .kep2oldal{
   margin-left: 40px;
   margin-top: 50px;
-}
-.cimpage3{
-  text-align: center;
 }
