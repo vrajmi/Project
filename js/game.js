@@ -78,10 +78,10 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Kérdés1',
+    question: 'Mit csinál egy szoftverfejlesztő?',
     answers: [
-      { text: 'Válasz1', correct: true },
-      { text: 'Válasz2', correct: false }
+      { text: 'Főként webes-, asztali- és mobilalkalmazást (szoftvert) tervezni és fejleszteni, tesztelni és dokumentálni', correct: true },
+      { text: 'Főként adatbázisokat tervez és kezel', correct: false }
     ]
   },
   {
@@ -101,10 +101,11 @@ const questions = [
     ]
   },
   {
-    question: 'Kérdés4',
+    question: 'Mi készség kellenek ahhoz hogy Szoftverfejlesztő és tesztelő legyél?',
     answers: [
-      { text: 'Válasz1', correct: true },
-      { text: 'Válasz2', correct: false }
+      { text: 'Kreativitással', correct: true },
+      { text: 'Gondolkozásra való készség', correct: true },
+      { text: 'Nem kell külön készség', correct: false },
     ]
   }
 ]
