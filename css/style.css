@@ -52,6 +52,7 @@ a:hover {
   width: 100%;
   background-size: cover;
   background-position: 0px -80px;
+  background-repeat: no-repeat;
 }
 
 .site-navbar-wrap {
